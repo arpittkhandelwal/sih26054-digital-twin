@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg:      #0a0e1a;
+  --color-surface: #111827;
+  --color-border:  #1f2937;
+  --color-accent:  #3b82f6;
+  --color-warn:    #f59e0b;
+  --color-danger:  #ef4444;
+  --color-ok:      #10b981;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #f1f5f9;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+}
+
+/* Google Font — Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
